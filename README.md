@@ -8,7 +8,7 @@ Users can add tasks, remove tasks, view all tasks, mark tasks as completed, sort
 Throughout the development process, I aimed to demonstrate my understanding of C++ language syntax and concepts. By building a functional application, I aimed to showcase my proficiency in C++ programming and enhance my skills as a software developer student.
 
 
-[Software Demo Video](https://www.youtube.com/watch?v=tgltKAhrw4o)
+[Software Demo Video](https://youtu.be/pLWyLSKsYjc)
 
 # Development Environment
 
