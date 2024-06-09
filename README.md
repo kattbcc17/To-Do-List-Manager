@@ -1,13 +1,11 @@
 # To-Do-List-Manager
 # Overview
 
-As a software developer student, I'm always looking to improve my skills and learn new programming languages. 
-In this project, I aimed to demonstrate my understanding of the C++ language by creating a simple user management system. 
-This system allows users to register, login, view the user list, search for users, and delete users. 
-My goal was to apply C++ language syntax and concepts to build a functional and user-friendly application.
+The software I developed is a To-Do List Manager written in C++. It leverages object-oriented programming features such as classes and objects to efficiently manage tasks. The system offers a menu-driven interface for users to interact with, enabling them to perform a variety of actions seamlessly.
 
-The software I wrote is a console-based user management system that utilizes C++'s object-oriented programming features, such as classes and objects, to manage user data. 
-The system provides a menu-driven interface for users to interact with the system and perform various actions.
+Users can add tasks, remove tasks, view all tasks, mark tasks as completed, sort tasks by creation time, search for tasks by title, and save tasks to a file. Each task is represented by a struct containing relevant information like title, description, creation time, and completion status.
+
+Throughout the development process, I aimed to demonstrate my understanding of C++ language syntax and concepts. By building a functional application, I aimed to showcase my proficiency in C++ programming and enhance my skills as a software developer student.
 
 
 [Software Demo Video](https://www.youtube.com/watch?v=tgltKAhrw4o)
@@ -22,9 +20,11 @@ To develop this software, I used the following tools:
 I wrote the software in C++ and utilized the following libraries:
 
 - <iostream> for input/output operations
-- <map> for storing user data in a map
+- <algorithm> Used for various algorithms like sorting and searching
 - <string> for working with strings
-- <vector> for storing user data in a vector (not used in this implementation, but could be useful in future extensions)
+- <vector> Employed for storing tasks in a vector data structure
+- <ctime> Employed for working with time-related functions
+- <fstream> Utilized for file input/output operations
 # Useful Websites
 
 Here are some websites that I found helpful during this project:
@@ -36,8 +36,8 @@ Here are some websites that I found helpful during this project:
 
 Here are some areas for improvement and future development:
 
-- Implementing data encryption and secure password storage
-- Adding more advanced user management features, such as user roles and permissions
-- Improving the user interface to make it more user-friendly and interactive
-- Expanding the system to support multiple user types, such as administrators and regular users
-- Integrating the system with a database for persistent data storage
+- Incorporating data encryption and robust password storage mechanisms to enhance security.
+- Enhancing user management functionalities by introducing advanced features like user roles and permissions.
+- Refining the user interface for a more intuitive and interactive user experience.
+- Scaling the system to accommodate multiple user categories, such as administrators and standard users.
+- Integrating the application with a database backend for efficient and persistent data storage.
